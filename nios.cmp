@@ -1,0 +1,18 @@
+	component nios is
+		port (
+			clk_clk                 : in  std_logic                     := 'X'; -- clk
+			reset_reset_n           : in  std_logic                     := 'X'; -- reset_n
+			data_export             : out std_logic_vector(7 downto 0);         -- export
+			wraddress_export        : out std_logic_vector(11 downto 0);        -- export
+			wren_export             : out std_logic;                            -- export
+			enable_start_export     : out std_logic;                            -- export
+			q_in_export             : in  std_logic                     := 'X'; -- export
+			rdaddress_export        : out std_logic_vector(11 downto 0);        -- export
+			enable_read_export      : in  std_logic                     := 'X'; -- export
+			wraddress_vga_export    : out std_logic_vector(11 downto 0);        -- export
+			enable_write_vga_export : out std_logic;                            -- export
+			q_out_export            : out std_logic;                            -- export
+			enable_vga_1_export     : out std_logic                             -- export
+		);
+	end component nios;
+

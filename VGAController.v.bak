@@ -1,0 +1,103 @@
+module VGAController(
+    input clock_50MHz,
+    input q,
+    input enable,
+    output reg [11:0] rdaddress,
+    output [3:0] VGA_R,
+    output [3:0] VGA_G,
+    output [3:0] VGA_B,
+    output VGA_HS,
+    output VGA_VS,
+    output CLOCK
+);
+
+    wire hsync;
+    wire vsync;
+    wire inDisplayArea;
+    wire frame_imagem;
+    wire zerar;
+    reg [3:0] r;
+    reg [3:0] g;
+    reg [3:0] b;
+
+    reg clock = 0;
+    reg [1:0] state = NOVO_DADO;
+    reg [11:0] contadorX = 0;
+
+    assign ENABLE = enable;
+    assign VGA_HS = hsync;
+    assign VGA_VS = vsync;
+    assign VGA_R = r;
+    assign VGA_G = g;
+    assign VGA_B = b;
+    assign CLOCK = clock;
+
+    parameter [1:0] NOVO_DADO = 3'h0,
+                    FIM = 3'h1;
+
+
+
+    always @(posedge clock) begin
+        case(state)
+            NOVO_DADO: 
+                begin
+                    if(contadorX >= 4095) begin
+                        contadorX <= 0;
+                    end else if(frame_imagem) begin
+                        contadorX <= contadorX + 1;
+                    end 
+                    state <= NOVO_DADO;
+                end
+        endcase
+    end
+
+    always @(state) begin
+        case(state)
+            NOVO_DADO:
+                begin 
+                    rdaddress <= contadorX;
+                    if(inDisplayArea) begin
+                        if(frame_imagem) begin
+                            if(q) begin
+                                r <= 4'b1111;
+                                g <= 4'b1111;
+                                b <= 4'b1111;
+                            end else begin
+                                r <= 4'b0000;
+                                g <= 4'b0000;
+                                b <= 4'b0000;
+                            end                            
+                        end else begin
+                            r <= 4'b0011;
+                            g <= 4'b0100;
+                            b <= 4'b1111;
+                        end
+
+                    end else begin
+                        r <= 4'b0000;
+                        g <= 4'b0000;
+                        b <= 4'b0000;
+                    end
+                end
+        endcase
+    end
+
+    always @(posedge clock_50MHz) begin
+        if(enable) begin
+            clock = ~clock;
+        end else begin
+            clock = 0;
+        end
+
+    end
+
+    hvsync_generator hvsync(
+        .clk(clock),
+        .vga_h_sync(hsync),
+        .vga_v_sync(vsync),
+        .inDisplayArea(inDisplayArea),
+        .zerar(zerar),
+        .frame_imagem(frame_imagem)
+    );
+
+endmodule

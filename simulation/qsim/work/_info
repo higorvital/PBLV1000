@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1\PBLV1000\simulation\qsim
+vCoprocessador
+!i10b 1
+!s100 IAh^cAMAU[W11kD3`ALE<0
+IiEVJ9zD2FHcejBRi@1jB:1
+V[J:;UgOc<1>S8_5zXlHUZ0
+Z1 dC:\altera\13.0sp1\PBLV1000\simulation\qsim
+w1533316638
+8PBL3.vo
+FPBL3.vo
+L0 31
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1533316647.248000
+!s107 PBL3.vo|
+!s90 -work|work|PBL3.vo|
+!s101 -O0
+o-work work -O0
+n@coprocessador

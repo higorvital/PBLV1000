@@ -1,0 +1,180 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 384 584)
+	(text "nios" (rect 181 -1 196 11)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 568 20 580)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "clk_clk" (rect 0 0 27 12)(font "Arial" (font_size 8)))
+		(text "clk_clk" (rect 4 61 46 72)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 160 72)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "reset_reset_n" (rect 0 0 56 12)(font "Arial" (font_size 8)))
+		(text "reset_reset_n" (rect 4 101 82 112)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 160 112)(line_width 1))
+	)
+	(port
+		(pt 0 312)
+		(input)
+		(text "q_in_export" (rect 0 0 47 12)(font "Arial" (font_size 8)))
+		(text "q_in_export" (rect 4 301 70 312)(font "Arial" (font_size 8)))
+		(line (pt 0 312)(pt 160 312)(line_width 1))
+	)
+	(port
+		(pt 0 392)
+		(input)
+		(text "enable_read_export" (rect 0 0 79 12)(font "Arial" (font_size 8)))
+		(text "enable_read_export" (rect 4 381 112 392)(font "Arial" (font_size 8)))
+		(line (pt 0 392)(pt 160 392)(line_width 1))
+	)
+	(port
+		(pt 0 152)
+		(output)
+		(text "data_export[7..0]" (rect 0 0 67 12)(font "Arial" (font_size 8)))
+		(text "data_export[7..0]" (rect 4 141 106 152)(font "Arial" (font_size 8)))
+		(line (pt 0 152)(pt 160 152)(line_width 3))
+	)
+	(port
+		(pt 0 192)
+		(output)
+		(text "wraddress_export[11..0]" (rect 0 0 94 12)(font "Arial" (font_size 8)))
+		(text "wraddress_export[11..0]" (rect 4 181 142 192)(font "Arial" (font_size 8)))
+		(line (pt 0 192)(pt 160 192)(line_width 3))
+	)
+	(port
+		(pt 0 232)
+		(output)
+		(text "wren_export" (rect 0 0 49 12)(font "Arial" (font_size 8)))
+		(text "wren_export" (rect 4 221 70 232)(font "Arial" (font_size 8)))
+		(line (pt 0 232)(pt 160 232)(line_width 1))
+	)
+	(port
+		(pt 0 272)
+		(output)
+		(text "enable_start_export" (rect 0 0 79 12)(font "Arial" (font_size 8)))
+		(text "enable_start_export" (rect 4 261 118 272)(font "Arial" (font_size 8)))
+		(line (pt 0 272)(pt 160 272)(line_width 1))
+	)
+	(port
+		(pt 0 352)
+		(output)
+		(text "rdaddress_export[11..0]" (rect 0 0 93 12)(font "Arial" (font_size 8)))
+		(text "rdaddress_export[11..0]" (rect 4 341 142 352)(font "Arial" (font_size 8)))
+		(line (pt 0 352)(pt 160 352)(line_width 3))
+	)
+	(port
+		(pt 0 432)
+		(output)
+		(text "wraddress_vga_export[11..0]" (rect 0 0 115 12)(font "Arial" (font_size 8)))
+		(text "wraddress_vga_export[11..0]" (rect 4 421 166 432)(font "Arial" (font_size 8)))
+		(line (pt 0 432)(pt 160 432)(line_width 3))
+	)
+	(port
+		(pt 0 472)
+		(output)
+		(text "enable_write_vga_export" (rect 0 0 100 12)(font "Arial" (font_size 8)))
+		(text "enable_write_vga_export" (rect 4 461 142 472)(font "Arial" (font_size 8)))
+		(line (pt 0 472)(pt 160 472)(line_width 1))
+	)
+	(port
+		(pt 0 512)
+		(output)
+		(text "q_out_export" (rect 0 0 53 12)(font "Arial" (font_size 8)))
+		(text "q_out_export" (rect 4 501 76 512)(font "Arial" (font_size 8)))
+		(line (pt 0 512)(pt 160 512)(line_width 1))
+	)
+	(port
+		(pt 0 552)
+		(output)
+		(text "enable_vga_1_export" (rect 0 0 86 12)(font "Arial" (font_size 8)))
+		(text "enable_vga_1_export" (rect 4 541 118 552)(font "Arial" (font_size 8)))
+		(line (pt 0 552)(pt 160 552)(line_width 1))
+	)
+	(drawing
+		(text "clk" (rect 145 43 308 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 165 67 348 144)(font "Arial" (color 0 0 0)))
+		(text "reset" (rect 131 83 292 179)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset_n" (rect 165 107 372 224)(font "Arial" (color 0 0 0)))
+		(text "data" (rect 136 123 296 259)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 165 147 366 304)(font "Arial" (color 0 0 0)))
+		(text "wraddress" (rect 99 163 252 339)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 165 187 366 384)(font "Arial" (color 0 0 0)))
+		(text "wren" (rect 132 203 288 419)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 165 227 366 464)(font "Arial" (color 0 0 0)))
+		(text "enable_start" (rect 88 243 248 499)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 165 267 366 544)(font "Arial" (color 0 0 0)))
+		(text "q_in" (rect 136 283 296 579)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 165 307 366 624)(font "Arial" (color 0 0 0)))
+		(text "rdaddress" (rect 102 323 258 659)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 165 347 366 704)(font "Arial" (color 0 0 0)))
+		(text "enable_read" (rect 89 363 244 739)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 165 387 366 784)(font "Arial" (color 0 0 0)))
+		(text "wraddress_vga" (rect 71 403 220 819)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 165 427 366 864)(font "Arial" (color 0 0 0)))
+		(text "enable_write_vga" (rect 58 443 212 899)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 165 467 366 944)(font "Arial" (color 0 0 0)))
+		(text "q_out" (rect 128 483 286 979)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 165 507 366 1024)(font "Arial" (color 0 0 0)))
+		(text "enable_vga_1" (rect 82 523 236 1059)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 165 547 366 1104)(font "Arial" (color 0 0 0)))
+		(text " nios " (rect 364 568 764 1146)(font "Arial" ))
+		(line (pt 161 52)(pt 161 76)(line_width 1))
+		(line (pt 162 52)(pt 162 76)(line_width 1))
+		(line (pt 161 92)(pt 161 116)(line_width 1))
+		(line (pt 162 92)(pt 162 116)(line_width 1))
+		(line (pt 161 132)(pt 161 156)(line_width 1))
+		(line (pt 162 132)(pt 162 156)(line_width 1))
+		(line (pt 161 172)(pt 161 196)(line_width 1))
+		(line (pt 162 172)(pt 162 196)(line_width 1))
+		(line (pt 161 212)(pt 161 236)(line_width 1))
+		(line (pt 162 212)(pt 162 236)(line_width 1))
+		(line (pt 161 252)(pt 161 276)(line_width 1))
+		(line (pt 162 252)(pt 162 276)(line_width 1))
+		(line (pt 161 292)(pt 161 316)(line_width 1))
+		(line (pt 162 292)(pt 162 316)(line_width 1))
+		(line (pt 161 332)(pt 161 356)(line_width 1))
+		(line (pt 162 332)(pt 162 356)(line_width 1))
+		(line (pt 161 372)(pt 161 396)(line_width 1))
+		(line (pt 162 372)(pt 162 396)(line_width 1))
+		(line (pt 161 412)(pt 161 436)(line_width 1))
+		(line (pt 162 412)(pt 162 436)(line_width 1))
+		(line (pt 161 452)(pt 161 476)(line_width 1))
+		(line (pt 162 452)(pt 162 476)(line_width 1))
+		(line (pt 161 492)(pt 161 516)(line_width 1))
+		(line (pt 162 492)(pt 162 516)(line_width 1))
+		(line (pt 161 532)(pt 161 556)(line_width 1))
+		(line (pt 162 532)(pt 162 556)(line_width 1))
+		(line (pt 160 32)(pt 224 32)(line_width 1))
+		(line (pt 224 32)(pt 224 568)(line_width 1))
+		(line (pt 160 568)(pt 224 568)(line_width 1))
+		(line (pt 160 32)(pt 160 568)(line_width 1))
+		(line (pt 0 0)(pt 384 0)(line_width 1))
+		(line (pt 384 0)(pt 384 584)(line_width 1))
+		(line (pt 0 584)(pt 384 584)(line_width 1))
+		(line (pt 0 0)(pt 0 584)(line_width 1))
+	)
+)

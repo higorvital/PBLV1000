@@ -1,0 +1,8 @@
+module Concertar_nome_2(
+    input [11:0] rdaddress,
+    output [11:0] rdaddress_export
+);
+
+    assign rdaddress_export = rdaddress;
+
+endmodule

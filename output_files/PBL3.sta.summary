@@ -1,0 +1,185 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clock'
+Slack : -4.148
+TNS   : -365.266
+
+Type  : Slow 1200mV 85C Model Setup 'Coprocessador:inst9|state.MANDAR_PIXEL'
+Slack : -2.758
+TNS   : -30.922
+
+Type  : Slow 1200mV 85C Model Setup 'Coprocessador:inst9|state.CALCULAR_1'
+Slack : -2.433
+TNS   : -2.433
+
+Type  : Slow 1200mV 85C Model Setup 'VGAController:inst|clock'
+Slack : -2.242
+TNS   : -57.450
+
+Type  : Slow 1200mV 85C Model Setup 'Coprocessador:inst9|state.VIZINHO'
+Slack : -0.149
+TNS   : -0.425
+
+Type  : Slow 1200mV 85C Model Hold 'Coprocessador:inst9|state.VIZINHO'
+Slack : -0.384
+TNS   : -3.635
+
+Type  : Slow 1200mV 85C Model Hold 'clock'
+Slack : -0.245
+TNS   : -2.641
+
+Type  : Slow 1200mV 85C Model Hold 'VGAController:inst|clock'
+Slack : 0.411
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Coprocessador:inst9|state.MANDAR_PIXEL'
+Slack : 0.720
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Coprocessador:inst9|state.CALCULAR_1'
+Slack : 2.169
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -219.139
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'VGAController:inst|clock'
+Slack : -2.693
+TNS   : -50.361
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Coprocessador:inst9|state.CALCULAR_1'
+Slack : 0.397
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Coprocessador:inst9|state.VIZINHO'
+Slack : 0.421
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Coprocessador:inst9|state.MANDAR_PIXEL'
+Slack : 0.424
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'clock'
+Slack : -3.698
+TNS   : -323.093
+
+Type  : Slow 1200mV 0C Model Setup 'Coprocessador:inst9|state.MANDAR_PIXEL'
+Slack : -2.505
+TNS   : -28.468
+
+Type  : Slow 1200mV 0C Model Setup 'Coprocessador:inst9|state.CALCULAR_1'
+Slack : -2.128
+TNS   : -2.128
+
+Type  : Slow 1200mV 0C Model Setup 'VGAController:inst|clock'
+Slack : -1.931
+TNS   : -48.962
+
+Type  : Slow 1200mV 0C Model Setup 'Coprocessador:inst9|state.VIZINHO'
+Slack : -0.068
+TNS   : -0.097
+
+Type  : Slow 1200mV 0C Model Hold 'Coprocessador:inst9|state.VIZINHO'
+Slack : -0.328
+TNS   : -3.037
+
+Type  : Slow 1200mV 0C Model Hold 'clock'
+Slack : -0.218
+TNS   : -1.980
+
+Type  : Slow 1200mV 0C Model Hold 'VGAController:inst|clock'
+Slack : 0.361
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Coprocessador:inst9|state.MANDAR_PIXEL'
+Slack : 0.787
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Coprocessador:inst9|state.CALCULAR_1'
+Slack : 1.975
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -218.127
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'VGAController:inst|clock'
+Slack : -2.649
+TNS   : -50.273
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Coprocessador:inst9|state.CALCULAR_1'
+Slack : 0.415
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Coprocessador:inst9|state.MANDAR_PIXEL'
+Slack : 0.445
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Coprocessador:inst9|state.VIZINHO'
+Slack : 0.476
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'clock'
+Slack : -1.603
+TNS   : -114.720
+
+Type  : Fast 1200mV 0C Model Setup 'Coprocessador:inst9|state.MANDAR_PIXEL'
+Slack : -1.052
+TNS   : -11.034
+
+Type  : Fast 1200mV 0C Model Setup 'Coprocessador:inst9|state.CALCULAR_1'
+Slack : -0.784
+TNS   : -0.784
+
+Type  : Fast 1200mV 0C Model Setup 'VGAController:inst|clock'
+Slack : -0.386
+TNS   : -8.626
+
+Type  : Fast 1200mV 0C Model Setup 'Coprocessador:inst9|state.VIZINHO'
+Slack : 0.416
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clock'
+Slack : -0.312
+TNS   : -8.410
+
+Type  : Fast 1200mV 0C Model Hold 'Coprocessador:inst9|state.VIZINHO'
+Slack : -0.202
+TNS   : -1.956
+
+Type  : Fast 1200mV 0C Model Hold 'VGAController:inst|clock'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Coprocessador:inst9|state.MANDAR_PIXEL'
+Slack : 0.440
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Coprocessador:inst9|state.CALCULAR_1'
+Slack : 1.151
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -155.383
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'VGAController:inst|clock'
+Slack : -1.000
+TNS   : -37.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Coprocessador:inst9|state.MANDAR_PIXEL'
+Slack : 0.332
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Coprocessador:inst9|state.VIZINHO'
+Slack : 0.361
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Coprocessador:inst9|state.CALCULAR_1'
+Slack : 0.434
+TNS   : 0.000
+
+------------------------------------------------------------

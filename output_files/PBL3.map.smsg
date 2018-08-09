@@ -1,0 +1,12 @@
+Warning (10268): Verilog HDL information at Coprocessador_2.v(32): always construct contains both blocking and non-blocking assignments
+Info (10281): Verilog HDL Declaration information at Coprocessador_2.v(15): object "vizinho" differs only in case from object "VIZINHO" in the same scope
+Info (10281): Verilog HDL Declaration information at Coprocessador_2.v(21): object "fim" differs only in case from object "FIM" in the same scope
+Info (10281): Verilog HDL Declaration information at Escrever.v(10): object "fim" differs only in case from object "FIM" in the same scope
+Info (10281): Verilog HDL Declaration information at VGAController.v(11): object "CLOCK" differs only in case from object "clock" in the same scope
+Info (10281): Verilog HDL Declaration information at nios_id_router.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at nios_id_router.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at nios_addr_router.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at nios_addr_router.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Warning (10268): Verilog HDL information at Coprocessador.v(32): always construct contains both blocking and non-blocking assignments
+Info (10281): Verilog HDL Declaration information at Coprocessador.v(15): object "vizinho" differs only in case from object "VIZINHO" in the same scope
+Info (10281): Verilog HDL Declaration information at Coprocessador.v(21): object "fim" differs only in case from object "FIM" in the same scope

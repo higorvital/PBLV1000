@@ -1,0 +1,11 @@
+# do PBL3.do 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Coprocessador
+# 
+# Top level modules:
+# 	Coprocessador
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# vsim -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.Coprocessador_vlg_vec_tst 
+# ** Error: (vsim-3170) Could not find 'C:/altera/13.0sp1/PBLV1000/simulation/qsim/work.Coprocessador_vlg_vec_tst'.
+# 
+# Error loading design

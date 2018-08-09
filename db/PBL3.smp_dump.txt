@@ -1,0 +1,13 @@
+
+State Machine - |PBL3V2|Coprocessador:inst9|state
+Name state.MANDAR_PIXEL state.CALCULAR_3 state.CALCULAR_2 state.CALCULAR_1 state.VIZINHO state.FIM 
+state.VIZINHO 0 0 0 0 0 0 
+state.CALCULAR_1 0 0 0 1 1 0 
+state.CALCULAR_2 0 0 1 0 1 0 
+state.CALCULAR_3 0 1 0 0 1 0 
+state.MANDAR_PIXEL 1 0 0 0 1 0 
+state.FIM 0 0 0 0 1 1 
+
+State Machine - |PBL3V2|VGAController:inst|state
+Name 
+state.NOVO_DADO 
